@@ -37,6 +37,6 @@ window.onload = function() {
 	 
 	}
 	 
-	$.getJSON("https://covid19-ayusha.herokuapp.com/api/AgeGroupDetails", addData);
+	$.getJSON("http://localhost:3000/api/AgeGroupDetails", addData);
 	 
 	}
