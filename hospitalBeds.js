@@ -36,6 +36,6 @@ function addData(data) {
 	$("#chartContainer").CanvasJSChart(options);
 
 }
-$.getJSON("https://covid19-ayusha.herokuapp.com/api/HospitalBedsIndia", addData);
+$.getJSON("http://localhost:3000/api/HospitalBedsIndia", addData);
 
 }
