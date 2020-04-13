@@ -15,7 +15,7 @@ const readDir = async () =>{
 
 const readFile = (file) => {
   return new Promise((resolve,reject)=>{
-    fs.promises.readFile(dir+file)
+    fs.promises.readFile(path.join(process.cwd(), "./helpers/Json/"+file))
     .then((data)=>{
       resolve(JSON.parse(data));
     })
