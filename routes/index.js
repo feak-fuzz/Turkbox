@@ -7,7 +7,7 @@ const dir = ".//helpers//json//";
 
 const readDir = async () =>{
     return new Promise( (resolve, reject) => {
-        fs.readdir(path.join(__dirname, "../helpers/Json"), async(err, data) => { 
+        fs.readdir(path.join(process.cwd, "../helpers/Json"), async(err, data) => { 
             err ? reject(err) : resolve(data);
         });
     });
