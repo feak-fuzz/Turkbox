@@ -36,6 +36,6 @@ function addData(data) {
 
 }
 
-$.getJSON("https://covid19-ayusha.herokuapp.com/api/ICMRTestingDetails", addData);
+$.getJSON("http://localhost:3000/api/ICMRTestingDetails", addData);
 
 }
