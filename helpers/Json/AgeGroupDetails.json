@@ -1,0 +1,62 @@
+[
+    {
+        "﻿Sno": "1",
+        "AgeGroup": "0-9",
+        "TotalCases": "22",
+        "Percentage": "3.18%"
+    },
+    {
+        "﻿Sno": "2",
+        "AgeGroup": "10-19",
+        "TotalCases": "27",
+        "Percentage": "3.90%"
+    },
+    {
+        "﻿Sno": "3",
+        "AgeGroup": "20-29",
+        "TotalCases": "172",
+        "Percentage": "24.86%"
+    },
+    {
+        "﻿Sno": "4",
+        "AgeGroup": "30-39",
+        "TotalCases": "146",
+        "Percentage": "21.10%"
+    },
+    {
+        "﻿Sno": "5",
+        "AgeGroup": "40-49",
+        "TotalCases": "112",
+        "Percentage": "16.18%"
+    },
+    {
+        "﻿Sno": "6",
+        "AgeGroup": "50-59",
+        "TotalCases": "77",
+        "Percentage": "11.13%"
+    },
+    {
+        "﻿Sno": "7",
+        "AgeGroup": "60-69",
+        "TotalCases": "89",
+        "Percentage": "12.86%"
+    },
+    {
+        "﻿Sno": "8",
+        "AgeGroup": "70-79",
+        "TotalCases": "28",
+        "Percentage": "4.05%"
+    },
+    {
+        "﻿Sno": "9",
+        "AgeGroup": ">=80",
+        "TotalCases": "10",
+        "Percentage": "1.45%"
+    },
+    {
+        "﻿Sno": "10",
+        "AgeGroup": "Missing",
+        "TotalCases": "9",
+        "Percentage": "1.30%"
+    }
+]

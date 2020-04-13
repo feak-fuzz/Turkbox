@@ -1,0 +1,154 @@
+[
+    {
+        "﻿SNo": "1",
+        "DateTime": "13/03/20 18:00",
+        "TotalSamplesTested": "6500",
+        "TotalIndividualsTested": "5900",
+        "TotalPositiveCases": "78",
+        "Source": "Press_Release_ICMR_13March2020.pdf"
+    },
+    {
+        "﻿SNo": "2",
+        "DateTime": "18/03/20 18:00",
+        "TotalSamplesTested": "13125",
+        "TotalIndividualsTested": "12235",
+        "TotalPositiveCases": "150",
+        "Source": "ICMR_website_update_18March_6PM_IST.pdf"
+    },
+    {
+        "﻿SNo": "3",
+        "DateTime": "19/03/20 18:00",
+        "TotalSamplesTested": "14175",
+        "TotalIndividualsTested": "13285",
+        "TotalPositiveCases": "182",
+        "Source": "ICMR_website_update_19March_6PM_IST.pdf"
+    },
+    {
+        "﻿SNo": "4",
+        "DateTime": "20/03/20 18:00",
+        "TotalSamplesTested": "15404",
+        "TotalIndividualsTested": "14514",
+        "TotalPositiveCases": "236",
+        "Source": "ICMR_website_update_20March_6PM_IST.pdf"
+    },
+    {
+        "﻿SNo": "5",
+        "DateTime": "21/03/20 18:00",
+        "TotalSamplesTested": "16911",
+        "TotalIndividualsTested": "16021",
+        "TotalPositiveCases": "315",
+        "Source": "ICMR_website_update_21March_6PM_IST.pdf"
+    },
+    {
+        "﻿SNo": "6",
+        "DateTime": "22/03/20 18:00",
+        "TotalSamplesTested": "18127",
+        "TotalIndividualsTested": "17237",
+        "TotalPositiveCases": "396",
+        "Source": "ICMR_website_update_22March_6PM_IST.pdf"
+    },
+    {
+        "﻿SNo": "7",
+        "DateTime": "23/03/20 20:00",
+        "TotalSamplesTested": "20707",
+        "TotalIndividualsTested": "19817",
+        "TotalPositiveCases": "471",
+        "Source": "ICMR_website_update_23March_8PM_IST.pdf"
+    },
+    {
+        "﻿SNo": "8",
+        "DateTime": "24/03/20 20:00",
+        "TotalSamplesTested": "22694",
+        "TotalIndividualsTested": "21804",
+        "TotalPositiveCases": "536",
+        "Source": "ICMR_website_update_24March_8PM_IST.pdf"
+    },
+    {
+        "﻿SNo": "9",
+        "DateTime": "25/03/20 20:00",
+        "TotalSamplesTested": "25144",
+        "TotalIndividualsTested": "24254",
+        "TotalPositiveCases": "581",
+        "Source": "ICMR_website_update_25March_8PM_IST.pdf"
+    },
+    {
+        "﻿SNo": "10",
+        "DateTime": "27/03/20 20:00",
+        "TotalSamplesTested": "27688",
+        "TotalIndividualsTested": "",
+        "TotalPositiveCases": "",
+        "Source": ""
+    },
+    {
+        "﻿SNo": "11",
+        "DateTime": "30/03/20 18:00",
+        "TotalSamplesTested": "38442",
+        "TotalIndividualsTested": "",
+        "TotalPositiveCases": "",
+        "Source": ""
+    },
+    {
+        "﻿SNo": "12",
+        "DateTime": "31/03/20 18:00",
+        "TotalSamplesTested": "42788",
+        "TotalIndividualsTested": "",
+        "TotalPositiveCases": "",
+        "Source": ""
+    },
+    {
+        "﻿SNo": "13",
+        "DateTime": "01/04/20 18:00",
+        "TotalSamplesTested": "47951",
+        "TotalIndividualsTested": "",
+        "TotalPositiveCases": "",
+        "Source": ""
+    },
+    {
+        "﻿SNo": "14",
+        "DateTime": "02/04/20 18:00",
+        "TotalSamplesTested": "55851",
+        "TotalIndividualsTested": "",
+        "TotalPositiveCases": "",
+        "Source": ""
+    },
+    {
+        "﻿SNo": "15",
+        "DateTime": "03/04/20 18:00",
+        "TotalSamplesTested": "66000",
+        "TotalIndividualsTested": "",
+        "TotalPositiveCases": "",
+        "Source": ""
+    },
+    {
+        "﻿SNo": "16",
+        "DateTime": "04/04/20 21:00",
+        "TotalSamplesTested": "79950",
+        "TotalIndividualsTested": "",
+        "TotalPositiveCases": "",
+        "Source": ""
+    },
+    {
+        "﻿SNo": "17",
+        "DateTime": "05/04/20 21:00",
+        "TotalSamplesTested": "89534",
+        "TotalIndividualsTested": "",
+        "TotalPositiveCases": "",
+        "Source": ""
+    },
+    {
+        "﻿SNo": "18",
+        "DateTime": "06/04/20 21:00",
+        "TotalSamplesTested": "101068",
+        "TotalIndividualsTested": "",
+        "TotalPositiveCases": "",
+        "Source": ""
+    },
+    {
+        "﻿SNo": "19",
+        "DateTime": "07/04/20 21:00",
+        "TotalSamplesTested": "114015",
+        "TotalIndividualsTested": "",
+        "TotalPositiveCases": "",
+        "Source": ""
+    }
+]

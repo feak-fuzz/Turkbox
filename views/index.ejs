@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<head>
+  <title><%=title %></title>
+</head>
+<body>
+  <h3><%=title %></h3>
+  Available routes are:
+  <ul>
+    <% for(var i=0; i<data.length; i++) {%>
+      <li>/api/<%=data[i].split(".")[0]%></li>
+    <%}%>
+  </ul>
+</body>
+</html>

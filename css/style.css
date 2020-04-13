@@ -1,0 +1,32 @@
+body{
+    background-color: lightblue;
+    width: 85%;
+    margin: 50px auto;
+   
+}
+.main-body{
+    height:650px;
+    
+    background: lightskyblue;
+}
+.navbar{
+    background-color:#1c64a145;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: azure;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+
+.navbar a:hover {
+  border-bottom: 3px solid black;
+}
+
+.navbar a.active {
+  border-bottom: 3px solid lightcyan;
+}
