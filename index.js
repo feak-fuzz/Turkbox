@@ -1,41 +1,50 @@
-window.onload = function() {
+var express = require('express');
+var router = express.Router();
+var path = require('path')
+var fs = require('fs');
 
-var dataPoints = [];
+const dir = ".//helpers//json//";
 
-var options =  {
-	animationEnabled: true,
-	theme: "light1",
-	title: {
-		text: "State & Gender Ratio"
-	},
-	axisX: {
-		title: "State",
-		titleFontSize: 24,
-
-	},
-	axisY: {
-		title: "Gender Ratio",
-		titleFontSize: 24,
-
-	},
-	data: [{
-		type: "bar", 
-		yValueFormatString: "###,###",
-		dataPoints: dataPoints
-	}]
-};
-
-function addData(data) {
-    data=data.data;
-	for (var i = 0; i < data.length; i++) {
-		dataPoints.push({
-			y: parseInt(data[i]["Gender Ratio"]),
-			label: data[i]["State / Union Territory"]
-		});
-	}
-	$("#chartContainer").CanvasJSChart(options);
-
+const readDir = async () =>{
+    return new Promise( (resolve, reject) => {
+        fs.readdir(path.join(process.cwd(), "./helpers/Json"), async(err, data) => { 
+            err ? reject(err) : resolve(data);
+        });
+    });
 }
-$.getJSON("http://localhost:3000/api/population_india_census2011", addData);
 
+const readFile = (file) => {
+  return new Promise((resolve,reject)=>{
+    fs.promises.readFile(path.join(process.cwd(), "./helpers/Json/"+file))
+    .then((data)=>{
+      resolve(JSON.parse(data));
+    })
+    .catch((err)=>{
+      reject(err);
+    })
+  })
 }
+
+
+
+/* GET home page. */
+router.get('/', function(req, res, next) {
+  readDir()
+  .then((data)=>{
+    res.render('index', { title: 'APIs', data:data});
+  })
+});
+
+/* GET Single route for all file data */
+router.get('/:file', function(req, res, next) {
+  readFile(req.params.file+".json")
+  .then((data)=>{
+    res.send({data:data,error:{}});
+    console.log(req.params)
+  })
+  .catch((err)=>{
+    res.send({data:{},error:{serverMessage:err,reason:"Reading Error or File Doesnot Exist"}});
+  })
+});
+
+module.exports = router;
