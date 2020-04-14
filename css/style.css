@@ -30,3 +30,25 @@ body{
 .navbar a.active {
   border-bottom: 3px solid lightcyan;
 }
+
+#chartContainer{
+  height: 470px;
+   width: 70%; 
+   margin-top:50px;
+   float: right;
+}
+
+#content-box{
+  height: 470px;
+   width: 30%; 
+   margin-top:50px;
+   float: left;
+   background: honeydew;
+   font-size:1.6vw;
+}
+.content{
+  margin:20px 15px 5px 25px;
+  font-style: oblique;
+  color: currentColor;
+   overflow: auto;
+}
