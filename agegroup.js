@@ -3,7 +3,7 @@ window.onload = function() {
  
 	var dataPoints = [];
 	 
-	var chart1 = new CanvasJS.Chart("ageGroup", {
+	var chart1 = new CanvasJS.Chart("chartContainer", {
 		animationEnabled: true,
 		theme: "light2",
 		title: {
